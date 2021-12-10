@@ -163,6 +163,8 @@ html {
 .header__heading-container-sub {
   text-align: center;
   clear: both;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 68em) {
