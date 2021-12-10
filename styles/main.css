@@ -118,6 +118,23 @@ html {
   line-height: 80%;
   padding-top: 3rem;
   text-shadow: 0 0 0.5rem black;
+
+  animation-name: header__heading-main-font-weight;
+  animation-delay: 0.75s;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes header__heading-main-font-weight {
+  0% {
+    opacity: 0;
+    font-weight: 100;
+  }
+  100% {
+    opacity: 1;
+    font-weight: 700;
+  }
 }
 
 @media (max-width: 62em) {
@@ -146,6 +163,8 @@ html {
 .header__heading-container-sub {
   text-align: center;
   clear: both;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 68em) {
